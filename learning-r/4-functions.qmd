@@ -120,6 +120,7 @@ Here we learn that `my_fav_numbers` is a *numeric vector*. Numeric vectors, as t
 What about `my_fav_colors`?
 
 ```{r}
+my_fav_colors <- c("green", "orange", "purple")
 class(my_fav_colors)
 ```
 
@@ -169,7 +170,7 @@ Let's use R to recreate the penguins data frame collected by Dr. Gorman.
 #| message: false
 #| warning: false
 
-library(stat20data)
+library(palmerpenguins)
 library(dplyr)
 library(kableExtra)
 options(kableExtra.html.bsTable = TRUE)
