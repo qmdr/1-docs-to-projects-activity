@@ -60,7 +60,7 @@ While this definition might seem opaque, you are already familiar with a data fr
 #| warning: false
 
 library(dplyr)
-library(stat20data)
+library(palmerpenguins)
 library(kableExtra)
 options(kableExtra.html.bsTable = TRUE)
 set.seed(30)
