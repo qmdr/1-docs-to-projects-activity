@@ -10,6 +10,7 @@ While the **vector** will serve as our atomic method of *storing* data in R, how
 Let's use a function to find the arithmetic mean of the vector `my_fav_numbers`.
 
 ```{r}
+my_fav_numbers <- c(9, 11, 19, 28)
 mean(my_fav_numbers)
 ```
 
